@@ -3,7 +3,7 @@ echo "program starts"
 function guessing {
   echo "how many files are here"
   read $answer
-  files=$(ls | wc -l)
+  files=$(ls -a | wc -l)
 
   while [[ $answer -ne $files ]]
   do
