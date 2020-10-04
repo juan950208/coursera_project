@@ -1,7 +1,7 @@
 echo "program starts"
 
 function guessing {
-  echo "how many files are here"
+  echo "how many files are here? type a number:"
   read $answer
   files=$(ls -a | wc -l)
 
@@ -10,14 +10,17 @@ function guessing {
 
     if [[ $answer -gt $files ]]
     then
-      echo "no, your guess is to high, try again"
+      echo "no, your guess is to high"
+      echo "try again:"
     else
-      echo "no, your guess is to low, try again"
+      echo "no, your guess is to low"
+      echo "try again:"
     fi
     read answer
 
   done
-echo "you guessed, congrats"
+echo "you guessed"
+echo "well done"
 
 }
 
