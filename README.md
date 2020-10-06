@@ -1,5 +1,5 @@
 **coursera project guessinggame**
 *lines in guessing game:*
-27 guessinggame.sh
+31 guessinggame.sh
 *time:*
-Sun Oct  4 18:25:52 -05 2020
+Mon Oct  5 20:35:53 -05 2020
